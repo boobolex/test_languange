@@ -49,7 +49,7 @@ def test_guest_cant_see_product_in_basket_opened_from_product_page(browser):
 
 
 @pytest.mark.autorizated_user
-class TestUserAddToCartFromProductPage(object):
+class TestUserAddToBasketFromProductPage(object):
     @pytest.fixture(scope='function', autouse=True)
     def setup(self, browser):
         """
